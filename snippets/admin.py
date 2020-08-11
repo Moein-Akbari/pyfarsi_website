@@ -97,4 +97,4 @@ class ScreenShot(admin.ModelAdmin):
     search_fields = ('id', 'snippet__name', 'snippet__user__username')
     readonly_fields = ('id',)
     list_per_page = 15
-    fieldsets = (('Information', {'fields': ('id', 'snippet')}),)
+    fieldsets = (('Information', {'fields': ('id', 'snippet')}))
